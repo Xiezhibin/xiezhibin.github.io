@@ -1,4 +1,5 @@
-site_name: My Docs
-
-git remote add origin git@github.com:Xiezhibin/xiezhibin.github.io.git
-ssh-keygen -t rsa -C "lsjxiezhibin@163.com"
+# [Info]
+site_name: My Docs  # 左上角标题
+site_url: https://xiezhibin.github.io
+site_author: 谢志斌
+site_description: 谢志斌的个人网站
