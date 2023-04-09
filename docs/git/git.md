@@ -23,3 +23,9 @@
 source control 中 message 文件中填写内容
 
 command + enter 提交 comment
+
+### git 解决远程仓库文件大小写问题
+
+```shell
+$ git config core.ignorecase false
+```
