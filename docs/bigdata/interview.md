@@ -1,52 +1,55 @@
-1、Hbase 建立二级索引的以及解决方案
-2、flink 的重启策略
-3、函数与存储过程的区别
+# 常用提问点
 
+## Hbase 建立二级索引的以及解决方案
 
-存储过程
+## flink 的重启策略
+
+## 函数与存储过程的区别
+
+## 存储过程
 
 存储过程（Stored Procedure ）是一组为了完成特定功能的SQL 语句集，经编译后存储在数据库中。用户通过指定存储过程的名字并给出参数（如果该存储过程带有参数）来执行它。存储过程是数据库中的一个重要对象，任何一个设计良好的数据库应用程序都应该用到存储过程。 存储过程是由流控制和SQL 语句书写的过程，这个过程经编译和优化后存储在数据库服务器中，应用程序使用时只要调用即可。在ORACLE 中，若干个有联系的过程可以组合在一起构成程序包。
 
-优 点：
+#### 优 点：
 
 1、存储过程只在创造时进行编译，以后每次执行存储过程都不需再重新编译，而一般SQL语句每执行一次就编译一次,所以使用存储过程可提高数据库执行速度。
 2、当对数据库进行复杂操作时(如对多个表进行Update、Insert、Query、Delete时），可将此复杂操作用存储过程封装起来与数据库提供的事务处理结合一起使用。
 3、存储过程可以重复使用,可减少数据库开发人员的工作量。
 4、安全性高,可设定只有某用户才具有对指定存储过程的使用权。
 
-二者最大的区别是：
+### 二者最大的区别是：
 
 - 函数（function）总是向调用者返回数据，并且一般只返回一个值；2).存储过程（procedure）不直接返回数据，但可以改变输出参数的值，这可以近似看作能返回值，且存储过程输出参数的值个数没有限制。
 
 从一般应用上来看，如果不需要返回值或者需要多个返回值，使用存储过程，如果只用一个返回值，就使用函数。
 
-- function定义中只能有DDL（如select等）语句；procedure中主要是DML语句（对数据库进行复杂操作时,如对多个表进行Update、Insert、Query、Delete时）。
+- function定义中只能有DDL（如select等）语句；procedure中主要是DML语句（对数据库进行复杂操作时,如对多个表进行Update、Insert、Query、Delete时）
 
-4、hive数据倾斜已经解决的办法
-可以通过执行计划来查看
+## hive数据倾斜
+
+ 可以通过执行计划来查看
+
 - 首先是大表关联小表，容易发生数据倾斜
 - join时：空key过多，或者相同key过多
 - join时：不同数据类型关联产生数据倾斜（重点）
 - group by发生的数据倾斜
-- 
+
 Map 端进行聚合
 set.hive.map.aggr=true
 Map端进行聚合操作的条目数量
 set hive.groupby.mapaggr.checkinterval=10000
 有数据倾斜的时候进行负载均衡
 set hive.groupby.skewindata=true
-- count distinct 变为 group by
+
+count distinct 变为 group by
 
 复杂文件增加MAP数量
 
+## hadoop的调度器
 
-
-5、hadoop的调度器
-调度器FIFO、
-Capacity Scheduler、
-Fair Scheduler
+- 调度器FIFO
+- Capacity Scheduler
+- Fair Scheduler
 
 其中Fair Scheduler是资源池机制，进入到里面的应用是共享pool里面的资源；只有当资源配比发生紧张的时候，才会根据权重来进行调整；
 Capacity则是基于队列的，每个队列都会被分配资源比例，这种资源比例是固定；所以没有资源共享的概念
-
-

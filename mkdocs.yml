@@ -1,8 +1,6 @@
 # [Info]
-site_name: Daniels  # 左上角标题
+site_name: Daniels
 site_url: https://xiezhibin.github.io
-site_author: 谢志斌
-site_description: 谢志斌的个人网站
 
 # [Navigtion]
 nav:
@@ -14,18 +12,17 @@ nav:
     - 能力: bigdata/数据工程师能力指南.md
   - git上传: git/git.md 
   - java学习:
-    - java/idea/plugins.md
-    - Idea:
-      - Google_java_format: java/idea/plugins.md
+    - java/idea/Plugins.md
+    - Idea 知识掌握:
+      - Google_java_format: java/idea/Plugins.md
   - sql知识点: 
-    - sql/窗口转化.md
-    - 窗口转化: sql/窗口转化.md
-    - 行列转化: sql/行列转化.md 
+    - 窗口转化: sql/窗口函数.md
+    - 行列转化: sql/行列转换.md 
+# [测试时候用]
+# theme: readthedocs
 
-
-
-# [UI]
-## [top]
+#[UI]
+##[top]
 theme:
   name: material
   palette:
