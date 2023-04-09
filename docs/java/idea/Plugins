@@ -1,4 +1,5 @@
 # Plugins
+
 ## Google java format
 
 - 安装
@@ -16,7 +17,7 @@
 
   - Help→Edit Custom VM Options...
 
-    ```
+    ```text
     --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED
     --add-exports=jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED
     --add-exports=jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED
@@ -43,4 +44,4 @@
   mvn checkstyle:checkstyle
   ```
 
-参考：https://github.com/google/google-java-format
+参考：`https://github.com/google/google-java-format`

@@ -4,6 +4,22 @@ site_url: https://xiezhibin.github.io
 site_author: 谢志斌
 site_description: 谢志斌的个人网站
 
+# [Navigtion]
+nav:
+  - 大数据技术:
+    - 八股: bigdata/interview.md
+    - 行为分析:
+      - Session 程序: bigdata/Session.md
+      - 行为分析工作: bigdata/行为分析工作.md
+    - 能力: bigdata/数据工程师能力指南.md
+  - java学习:
+    - Idea:
+      - Google_java_format: java/idea/plugins.md
+  - sql知识点: 
+    - 窗口转化: sql/窗口转化.md
+    - 行列转化: sql/行列转化.md 
+
+
 # [UI]
 ## [top]
 theme:
