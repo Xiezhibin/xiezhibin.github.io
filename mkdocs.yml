@@ -10,6 +10,7 @@ nav:
       - Session 程序: bigdata/Session.md
       - 行为分析工作: bigdata/行为分析工作.md
     - 能力: bigdata/数据工程师能力指南.md
+  - 个人随笔:
   - git上传: git/git.md 
   - java学习:
     - java/idea/Plugins.md
@@ -18,6 +19,8 @@ nav:
   - sql知识点: 
     - 窗口转化: sql/窗口函数.md
     - 行列转化: sql/行列转换.md 
+  - 技术分析:
+    - 建立个人网址：tech/个人网址建立.md
 # [测试时候用]
 # theme: readthedocs
 
