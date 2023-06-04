@@ -10,7 +10,6 @@ nav:
       - Session 程序: bigdata/Session.md
       - 行为分析工作: bigdata/行为分析工作.md
     - 能力: bigdata/数据工程师能力指南.md
-  - 个人随笔:
   - git上传: git/git.md 
   - java学习:
     - java/idea/Plugins.md
