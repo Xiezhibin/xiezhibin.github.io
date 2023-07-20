@@ -20,6 +20,7 @@ nav:
     - 行列转化: sql/行列转换.md 
   - 技术分析:
     - 建立个人网址: tech/个人网址建立.md
+    - Codespace白嫖手册: tech/codespaces.md
 # [测试时候用]
 # theme: readthedocs
 
