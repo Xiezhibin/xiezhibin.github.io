@@ -43,7 +43,7 @@
 2. **一旦建立起与GitHub的连接，您就可以免费使用虚拟机进行学习和工作。**
 ![成功后图片1](./images/image-code-cs50.png)
 
-![成功后图片2](./images/mage-enter-sucess.png)
+![成功后图片2](./images/image-enter-sucess.png)
 
 ## 结语
 
