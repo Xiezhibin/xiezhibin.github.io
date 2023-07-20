@@ -16,7 +16,7 @@
 
 **您可以在GitHub网页上查看已创建的Codespace，路径为：右上角头像 -> "Your Codespaces"。**
 
-![Codespace查看路径示意图](https://github.com/Xiezhibin/xiezhibin.github.io/blob/main/archive/pictures/image-open-location.png)
+![Codespace查看路径示意图](./images/image-open-location.png)
 
 ## 连接到Codespace
 
@@ -33,7 +33,7 @@
 
 **具体的收费政策和价格信息，请查看**
 
-![Codespace计费规则截图](https://github.com/Xiezhibin/xiezhibin.github.io/blob/main/archive/pictures/image-fee.png.png)
+![Codespace计费规则截图](./images/image-fee.png)
 
 ## 白嫖企业版本
 
@@ -41,9 +41,9 @@
 
 1. **使用您的GitHub账号登录**[cs50.dev](https://cs50.dev/)。
 2. **一旦建立起与GitHub的连接，您就可以免费使用虚拟机进行学习和工作。**
-![成功后图片1](https://github.com/Xiezhibin/xiezhibin.github.io/blob/main/archive/pictures/image-code-cs50.png)
+![成功后图片1](./images/image-code-cs50.png)
 
-![成功后图片2](https://github.com/Xiezhibin/xiezhibin.github.io/blob/main/archive/pictures/mage-enter-sucess.png)
+![成功后图片2](./images/mage-enter-sucess.png)
 
 ## 结语
 
