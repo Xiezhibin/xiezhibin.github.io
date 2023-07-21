@@ -6,11 +6,11 @@
 
 在开始修改代码之前，首先需要进入想要修改的 GitHub 仓库页面，并将该项目 fork 到你自己的 GitHub 账号下的私有空间中。
 
-![fork示例](.\images\fork_button.png)
+![fork示例](./images/fork_button.png)
 
 然后在本地建立 fork（origin）和本地代码库（local codebase）。任何修改都需要 push 到 fork 代码中，并通过合并（incorporated）的方式将修改提交到官方版本的分支中（通常称为 "upstream version"），这需要通过 "pull request" 完成。下图展示了 GitHub 账号的 fork、本地代码库、官方版本之间的关系：
 
-![三者关系示例](.\images\graphviz.png)
+![三者关系示例](./images/graphviz.png)
 
 ## 通过 git 提交代码
 
@@ -83,11 +83,11 @@ git push origin new-feature-x
 
 选择 "New Pull Request"，并按照项目的文档要求填写提交的变更内容：
 
-![提交文件内容](.\images\document.png)
+![提交文件内容](./images/document.png)
 
 一切顺利，当你的修改被合并到主分支后，你将会收到 GitHub 的勋章：
 
-![完成](.\images\achivement.png)
+![完成](./images/achivement.png)
 
 ## 结语
 
