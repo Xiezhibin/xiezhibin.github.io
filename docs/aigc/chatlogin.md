@@ -5,7 +5,7 @@
 1. 一个验证用的注册邮箱（建议使用Gmail或其他可靠的邮箱服务商）。
 2. 购买一个国外的虚拟手机号码，例如英国号码，用于注册。
 
-![Virtual Phone Number](./images/image-login.png)
+![Virtual Phone Number](./images/visual-mobile.png)
 
 ### 二、注册并使用ChatGPT
 

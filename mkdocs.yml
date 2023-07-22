@@ -7,23 +7,22 @@ nav:
   - 大数据:
     - 八股: bigdata/interview.md
     - 行为分析:
-      - Session 程序: bigdata/Session.md
-      - 行为分析工作: bigdata/行为分析工作.md
-    - 能力: bigdata/数据工程师能力指南.md
+      - 切割行为session: bigdata/session.md
+      - 客户端行为口径: bigdata/work_definition.md
+    - 能力: bigdata/data_dev.md
   - java:
-    - java/idea/Plugins.md
     - Idea 知识掌握:
-      - Google_java_format: java/idea/Plugins.md
+      - Google_java_format: java/idea/plugins.md
   - sql: 
-    - 窗口转化: sql/窗口函数.md
-    - 行列转化: sql/行列转换.md 
+    - 窗口转化: sql/window_function.md
+    - 行列转化: sql/row_column_conversion.md 
   - 技术blog:
     - git上传: tech/git.md
-    - 建立个人网址: tech/个人网址建立.md
+    - 建立个人网址: tech/personal_web.md.md
     - Codespace白嫖手册: tech/codespaces.md
     - 开源项目PR提交: tech/pr.md
   - 日常AIGC:
-    - ChatGPT 注册方法 aigc/chat_login.md
+    - ChatGPT 注册方法: aigc/chatlogin.md
 # [测试时候用]
 # theme: readthedocs
 
