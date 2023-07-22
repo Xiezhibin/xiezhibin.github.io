@@ -11,8 +11,7 @@ nav:
       - 客户端行为口径: bigdata/work_definition.md
     - 能力: bigdata/data_dev.md
   - java:
-    - Idea 知识掌握:
-      - Google_java_format: java/idea/plugins.md
+    - Google_java_format: java/idea/plugins.md
   - sql: 
     - 窗口转化: sql/window_function.md
     - 行列转化: sql/row_column_conversion.md 
