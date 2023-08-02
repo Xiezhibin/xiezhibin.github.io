@@ -10,6 +10,8 @@ nav:
       - 切割行为session: bigdata/session.md
       - 客户端行为口径: bigdata/work_definition.md
     - 能力: bigdata/data_dev.md
+    - 实时数仓:
+      - 动态CEP: bigdata/flink/dynamic_cep.md
   - java:
     - Google_java_format: java/idea/plugins.md
   - sql: 
@@ -17,7 +19,7 @@ nav:
     - 行列转化: sql/row_column_conversion.md 
   - 技术blog:
     - git上传: tech/git.md
-    - 建立个人网址: tech/personal_web.md.md
+    - 建立个人网址: tech/personal_web.md
     - Codespace白嫖手册: tech/codespaces.md
     - 开源项目PR提交: tech/pr.md
   - 日常AIGC:
